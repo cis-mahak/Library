@@ -9,23 +9,23 @@ import java.util.*
 
 class DateConversion {
 
-    val ddMMYYYY  = "dd MM yyyy"
-    val dd_MM_YYYY  = "dd-MM-yyyy"
-    val ddMMYYYYSlash = "dd/MM/yyyy"
-    val YYYYMMdd = "yyyy MM dd"
-    val YYYY_MM_dd = "yyyy-MM-dd"
-    val YYYYMMddSlash = "yyyy/MM/dd"
-    val ddMMMYYYY = "dd MMM yyyy"
-    val ddMMYYYYhhmmaa = "dd MM YYYY hh:mm aa"
-    val dd_MM_YYYYhhmmaa = "dd-MM-YYYY hh:mm aa"
-    val ddMMYYYYhhmmaaSlash = "dd/MM/YYYY hh:mm aa"
-    val ddMMYYYYHHmm = "dd MM YYYY HH:mm"
-    val dd_MM_YYYYHHmm = "dd-MM-YYYY HH:mm"
-    val ddMMYYYYHHmmsSplash = "dd/MM/YYYY HH:mm"
-    val HHmm = "HH:mm"
-    val hhmmaa = "hh:mm aa"
-
     companion object{
+
+        val ddMMYYYY  = "dd MM yyyy"
+        val dd_MM_YYYY  = "dd-MM-yyyy"
+        val ddMMYYYYSlash = "dd/MM/yyyy"
+        val YYYYMMdd = "yyyy MM dd"
+        val YYYY_MM_dd = "yyyy-MM-dd"
+        val YYYYMMddSlash = "yyyy/MM/dd"
+        val ddMMMYYYY = "dd MMM yyyy"
+        val ddMMYYYYhhmmaa = "dd MM YYYY hh:mm aa"
+        val dd_MM_YYYYhhmmaa = "dd-MM-YYYY hh:mm aa"
+        val ddMMYYYYhhmmaaSlash = "dd/MM/YYYY hh:mm aa"
+        val ddMMYYYYHHmm = "dd MM YYYY HH:mm"
+        val dd_MM_YYYYHHmm = "dd-MM-YYYY HH:mm"
+        val ddMMYYYYHHmmsSplash = "dd/MM/YYYY HH:mm"
+        val HHmm = "HH:mm"
+        val hhmmaa = "hh:mm aa"
 
         @SuppressLint("SimpleDateFormat")
         fun getCurrentDateTime(): String? {
